@@ -23,7 +23,8 @@
             android:layout_marginRight="17dp"
             android:background="@color/white"
             android:backgroundTint="#FFFFFF"
-            android:hint="Recipe Name" />
+            android:hint="Recipe Name"
+            android:textColor="#000000" />
 
         <EditText
             android:id="@+id/editTextCategory"
@@ -37,7 +38,8 @@
             android:layout_marginRight="23dp"
             android:background="@color/white"
             android:backgroundTint="#FFFFFF"
-            android:hint="Category" />
+            android:hint="Category"
+            android:textColor="#000000" />
 
         <EditText
             android:id="@+id/editTextDescription"
@@ -53,7 +55,8 @@
             android:background="@color/white"
             android:backgroundTint="#FFFFFF"
             android:hint="Description"
-            android:textAlignment="textStart" />
+            android:textAlignment="textStart"
+            android:textColor="#000000" />
 
         <Button
             android:id="@+id/buttonChooseImage"
